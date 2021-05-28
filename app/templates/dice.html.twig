@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+
+{% block main %}
+    <p>The message is</p>
+
+    <p>My dice view </p>
+
+    {{ dicehand.roll() }}
+    {{ dicehand.getLastRoll() }}
+
+    <h1>Rolling six graphic dices</h1>
+
+    <p class="dice-utf8">
+        {% for gclass in graphclass %}
+            <i class="{{gclass}}"></i>
+        {% endfor %}
+    </p>
+
+    <p>Session:</p>
+
+    {% for key, sname in session.all() %}
+        <p> {{ key }} , {{ sname }} </p>
+    {% endfor %}
+
+{% endblock %}

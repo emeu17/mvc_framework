@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+
+    <h1>Session details</h1>
+    <p>Here are some details on the session. Reload this page to see the counter increment itself.</p>
+    <p>You may <a href="session/destroy">destroy the session</a> if you like, good for dealing
+    with trouble.</p>
+
+
+    {% for key, sname in session.all() %}
+        <p> {{ key }} , {{ sname }} </p>
+    {% endfor %}
+
+
+
+
+    {% if session.get('counter') is null %}
+        {{ session.set('counter', 1) }}
+    {% else %}
+        {{ session.set('counter', 1 + session.get('counter')) }}
+    {% endif %}
+
+{% endblock %}

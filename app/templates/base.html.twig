@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {# Run `composer require symfony/webpack-encore-bundle`
+           and uncomment the following Encore helpers to start using Symfony UX #}
+        <link href="{{ asset('css/style.css') }}" rel="stylesheet"/>
+
+        {% block javascripts %}
+            {#{{ encore_entry_script_tags('app') }}#}
+        {% endblock %}
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="">Home</a> |
+                <a href="session">Session</a> |
+                <a href="debug">Debug</a> |
+                <a href="twig">Twig view</a> |
+                <a href="some/where">some/where</a> |
+                <a href="no/such/path">Show 404 example</a> |
+                <a href="startGame">Game 21</a> |
+                <a href="yatzy">Yatzy</a> |
+                <a href="dice_view">Dice</a>
+
+            </nav>
+        </header>
+        <main>
+            {% block main %}{% endblock %}
+        </main>
+    </body>
+</html>
