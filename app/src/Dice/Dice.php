@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Emeu17\Dice;
 
+
 /**
  * Class Dice.
  */
@@ -51,6 +52,11 @@ class Dice
         return $this->faces;
     }
 
+    /**
+     * Get a string value of the last rolled dice.
+     *
+     * @return string as string representation of last rolled dice.
+     */
     public function asString(): string
     {
         return (string) $this->getLastRoll();

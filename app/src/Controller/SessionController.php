@@ -20,12 +20,8 @@ class SessionController extends AbstractController
     */
     public function showSession(SessionInterface $session): Response
     {
-        // $session = new Session();
-        // $session->start();
-        $session->set('token', 'a6c1e0b6');
-        // if ($session->get('counter')) {
-        //     $session->set('counter', 1 + $session->get('counter'));
-        // }
+
+        // $session->set('token', 'a6c1e0b6');
 
         return $this->render('session.html.twig', [
             'session' => $session,

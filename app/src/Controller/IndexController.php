@@ -2,10 +2,11 @@
 
 namespace App\Controller;
 
+//use Emeu17\Dice\DiceInterface;
 use Emeu17\Dice\Dice;
 use Emeu17\Dice\DiceHand;
 use Emeu17\Dice\GraphicalDice;
-use Emeu17\Dice\DiceInterface;
+
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
@@ -17,17 +18,15 @@ class IndexController extends AbstractController
 {
 
     /**
-     * @Route("/")
+     * @Route("/", name="home")
     */
-    public function hello(): Response
+    public function home(): Response
     {
-        return $this->render('message.html.twig', [
-            'message' => "Hello and Welcome",
-        ]);
+        return $this->render('home.html.twig');
     }
 
     /**
-     * @Route("/dice_view")
+     * @Route("/dice_view", name="dice_view")
     */
     public function diceView(SessionInterface $session): Response
     {

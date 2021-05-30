@@ -9,7 +9,7 @@
 
 
     {% for key, sname in session.all() %}
-        <p> {{ key }} , {{ sname }} </p>
+        <p> {{ key }} , {{ dump(sname) }} </p>
     {% endfor %}
 
 
