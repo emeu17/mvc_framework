@@ -1,0 +1,229 @@
+PHPUnit 9.5.4 by Sebastian Bergmann and contributors.
+
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE............           55 / 55 (100%)
+
+Time: 00:02.494, Memory: 20.00 MB
+
+There were 43 errors:
+
+1) Mos\Controller\ControllerDebugTest::testCreateTheControllerClass
+Error: Class 'Mos\Controller\Debug' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerDebugTest.php:20
+
+2) Mos\Controller\ControllerDebugTest::testControllerReturnsResponse
+Error: Class 'Mos\Controller\Debug' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerDebugTest.php:29
+
+3) Mos\Controller\ControllerDicePageTest::testCreateTheControllerClass
+Error: Class 'Mos\Controller\DicePage' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerDicePageTest.php:20
+
+4) Mos\Controller\ControllerDicePageTest::testControllerReturnsResponse
+Error: Class 'Mos\Controller\DicePage' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerDicePageTest.php:29
+
+5) Mos\Controller\ControllerErrorTest::testCreateTheControllerClass
+Error: Class 'Mos\Controller\Error' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerErrorTest.php:20
+
+6) Mos\Controller\ControllerErrorTest::testController404Action
+Error: Class 'Mos\Controller\Error' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerErrorTest.php:30
+
+7) Mos\Controller\ControllerErrorTest::testController405Action
+Error: Class 'Mos\Controller\Error' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerErrorTest.php:45
+
+8) Mos\Controller\ControllerFormTest::testCreateTheControllerClass
+Error: Class 'Mos\Controller\Form' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerFormTest.php:20
+
+9) Mos\Controller\ControllerFormTest::testControllerViewAction
+Error: Class 'Mos\Controller\Form' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerFormTest.php:30
+
+10) Mos\Controller\ControllerFormTest::testControllerProcessAction
+Error: Class 'Mos\Controller\Form' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerFormTest.php:45
+
+11) Mos\Controller\ControllerGame21Test::testCreateTheControllerClass
+Error: Class 'Mos\Controller\Game21' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerGame21Test.php:21
+
+12) Mos\Controller\ControllerGame21Test::testStartGame
+Error: Class 'Mos\Controller\Game21' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerGame21Test.php:31
+
+13) Mos\Controller\ControllerGame21Test::testResetGame
+Error: Class 'Mos\Controller\Game21' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerGame21Test.php:50
+
+14) Mos\Controller\ControllerGame21Test::testProcessStart
+Error: Class 'Mos\Controller\Game21' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerGame21Test.php:74
+
+15) Mos\Controller\ControllerGame21Test::testPlayGame
+Error: Class 'Mos\Controller\Game21' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerGame21Test.php:89
+
+16) Mos\Controller\ControllerGame21Test::testProcessThrow
+Error: Class 'Mos\Controller\Game21' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerGame21Test.php:102
+
+17) Mos\Controller\ControllerGame21Test::testResultGame
+Error: Class 'Mos\Controller\Game21' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerGame21Test.php:115
+
+18) Mos\Controller\ControllerGame21Test::testGetWinner21
+Error: Class 'Mos\Controller\Game21' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerGame21Test.php:131
+
+19) Mos\Controller\ControllerGame21Test::testGetWinnerMoreThan21
+Error: Class 'Mos\Controller\Game21' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerGame21Test.php:149
+
+20) Mos\Controller\ControllerIndexTest::testCreateTheControllerClass
+Error: Class 'Mos\Controller\Index' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerIndexTest.php:20
+
+21) Mos\Controller\ControllerIndexTest::testControllerReturnsResponse
+Error: Class 'Mos\Controller\Index' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerIndexTest.php:29
+
+22) Mos\Controller\ControllerSampleTest::testCreateTheControllerClass
+Error: Class 'Mos\Controller\Sample' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerSampleTest.php:20
+
+23) Mos\Controller\ControllerSampleTest::testControllerReturnsResponse
+Error: Class 'Mos\Controller\Sample' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerSampleTest.php:29
+
+24) Mos\Controller\ControllerSessionTest::testCreateTheControllerClass
+Error: Class 'Mos\Controller\Session' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerSessionTest.php:20
+
+25) Mos\Controller\ControllerSessionTest::testControllerReturnsResponse
+Error: Class 'Mos\Controller\Session' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerSessionTest.php:31
+
+26) Mos\Controller\ControllerSessionTest::testDestroySession
+Error: Class 'Mos\Controller\Session' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerSessionTest.php:47
+
+27) Mos\Controller\ControllerTwigViewTest::testCreateTheControllerClass
+Error: Class 'Mos\Controller\TwigView' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerTwigViewTest.php:20
+
+28) Mos\Controller\ControllerTwigViewTest::testControllerReturnsResponse
+Error: Class 'Mos\Controller\TwigView' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerTwigViewTest.php:29
+
+29) Mos\Controller\ControllerYatzyTest::testCreateTheControllerClass
+Error: Class 'Mos\Controller\Yatzy' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerYatzyTest.php:20
+
+30) Mos\Controller\ControllerYatzyTest::testStartGameReturnsResponse
+Error: Class 'Mos\Controller\Yatzy' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerYatzyTest.php:30
+
+31) Mos\Controller\ControllerYatzyTest::testStartGameDestroyedSession
+Error: Class 'Mos\Controller\Yatzy' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerYatzyTest.php:45
+
+32) Mos\Controller\ControllerYatzyTest::testProcessStartReturnsResponse
+Error: Class 'Mos\Controller\Yatzy' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerYatzyTest.php:60
+
+33) Mos\Controller\ControllerYatzyTest::testProcessStartSessionVars
+Error: Class 'Mos\Controller\Yatzy' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerYatzyTest.php:73
+
+34) Mos\Controller\ControllerYatzyTest::testPlayGameReturnsResponse
+Error: Class 'Mos\Controller\Yatzy' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerYatzyTest.php:97
+
+35) Mos\Controller\ControllerYatzyTest::testProcessThrowReturnsResponse
+Error: Class 'Mos\Controller\Yatzy' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerYatzyTest.php:110
+
+36) Mos\Controller\ControllerYatzyTest::testProcessThrowThreeRounds
+Error: Class 'Mos\Controller\Yatzy' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerYatzyTest.php:124
+
+37) Mos\Controller\ControllerYatzyTest::testProcessThrowThreeRoundsSevenSet
+Error: Class 'Mos\Controller\Yatzy' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerYatzyTest.php:146
+
+38) Mos\Controller\ControllerYatzyTest::testPrintResult
+Error: Class 'Mos\Controller\Yatzy' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerYatzyTest.php:170
+
+39) Mos\Controller\ControllerYatzyTest::testPrintResultStars
+Error: Class 'Mos\Controller\Yatzy' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerYatzyTest.php:185
+
+40) Mos\Controller\ControllerYatzyTest::testGetSum
+Error: Class 'Mos\Controller\Yatzy' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerYatzyTest.php:200
+
+41) Mos\Controller\ControllerYatzyTest::testGetBonus
+Error: Class 'Mos\Controller\Yatzy' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerYatzyTest.php:219
+
+42) Mos\Controller\ControllerYatzyTest::testNotGetBonus
+Error: Class 'Mos\Controller\Yatzy' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerYatzyTest.php:232
+
+43) Mos\Controller\ControllerYatzyTest::testResultReturnsResponse
+Error: Class 'Mos\Controller\Yatzy' not found
+
+C:\Users\emma8\Documents\BTH\dbwebb-kurser\mvc\me\framework\app\test\Controller\ControllerYatzyTest.php:245
+
+ERRORS!
+Tests: 55, Assertions: 31, Errors: 43.
+
+Generating code coverage report in Clover XML format ... done [00:00.391]
+
+Generating code coverage report in HTML format ... done [00:00.476]

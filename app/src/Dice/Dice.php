@@ -4,11 +4,19 @@ declare(strict_types=1);
 
 namespace Emeu17\Dice;
 
+// use function Mos\Functions\{
+//     destroySession,
+//     redirectTo,
+//     renderView,
+//     renderTwigView,
+//     sendResponse,
+//     url
+// };
 
 /**
  * Class Dice.
  */
-class Dice
+class Dice implements DiceInterface
 {
     private $faces;
     private $roll = 0;
@@ -52,11 +60,6 @@ class Dice
         return $this->faces;
     }
 
-    /**
-     * Get a string value of the last rolled dice.
-     *
-     * @return string as string representation of last rolled dice.
-     */
     public function asString(): string
     {
         return (string) $this->getLastRoll();

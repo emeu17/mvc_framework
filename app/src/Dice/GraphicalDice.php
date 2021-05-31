@@ -12,7 +12,7 @@ namespace Emeu17\Dice;
 /**
  * A graphic dice.
  */
-class GraphicalDice extends Dice
+class GraphicalDice extends Dice implements DiceInterface
 {
     /**
      * @var integer SIDES Number of sides of the Dice.
