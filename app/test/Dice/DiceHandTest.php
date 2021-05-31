@@ -58,4 +58,35 @@ class DiceHandTest extends TestCase
         $exp = [$diceHand->getDiceValue(0), $diceHand->getDiceValue(1)];
         $this->assertEquals($exp, $res);
     }
+
+    /**
+     * Construct object and verify that after
+     * rolling dices the correct string of dice rolls
+     * can be retrieved
+     */
+    public function testGetLastRollString()
+    {
+        $diceHand = new DiceHand(2);
+        $this->assertInstanceOf("\Emeu17\Dice\DiceHand", $diceHand);
+
+        $diceHand->roll();
+        $res = $diceHand->getLastRoll();
+        $exp = $diceHand->getDiceValue(0) . ", " . $diceHand->getDiceValue(1);
+        $this->assertEquals($exp, $res);
+    }
+
+    /**
+     * Construct object and verify that computer
+     * simulation retrieves the correct result
+     * should roll dice(s) until >= number sent in
+     */
+    public function testSimulateComputer()
+    {
+        $diceHand = new DiceHand(2);
+        $this->assertInstanceOf("\Emeu17\Dice\DiceHand", $diceHand);
+
+        $diceHand->roll();
+        $res = $diceHand->simulateComputer(15);
+        $this->assertTrue($res >= 15);
+    }
 }
