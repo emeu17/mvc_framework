@@ -23,25 +23,4 @@ class ControllerIndexPageTest extends WebTestCase
         $controller = new IndexController();
         $this->assertInstanceOf("\App\Controller\IndexController", $controller);
     }
-
-    // /**
-    //  * Check that the controller returns a response.
-    //  */
-    // public function testControllerReturnsResponse()
-    // {
-    //     $controller = new IndexController();
-    //
-    //     $exp = "\Symfony\Component\HttpFoundation\Response";
-    //     $res = $controller->home();
-    //     $this->assertInstanceOf($exp, $res);
-    // }
-
-    // public function testControllerReturnsResponse2(SessionInterface $session)
-    // {
-    //     $controller = new IndexController();
-    //
-    //     $exp = "\Symfony\Component\HttpFoundation\Response";
-    //     $res = $controller->diceView($session);
-    //     $this->assertInstanceOf($exp, $res);
-    // }
 }

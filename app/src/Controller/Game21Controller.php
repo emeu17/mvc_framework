@@ -126,6 +126,7 @@ class Game21Controller extends AbstractController
             $res = "You passed 21 and lost, sum: " . $sum;
             // $winner = "computer";
             $session->set('compScore', 1 + $session->get('compScore'));
+            return $res;
         }
         // if sum less than 21, simulate computer throws
         $computerScore = $callable->simulateComputer((int) $sum);
